@@ -1,0 +1,8 @@
+CREATE FUNCTION FUN_EJEMPLO8(descripcionArticulo VARCHAR(100), anio INT)
+RETURNS INT
+BEGIN
+    DECLARE cantidad INT;
+    SELECT COUNT(*) INTO cantidad FROM COMPRA c INNER JOIN ARTICULO a ON c.CODART = a.CODART
+    WHERE a.DESCRIPCION = descripcionArticulo AND YEAR(c.FECHASOL) = anio;
+    RETURN cantidad;
+END
