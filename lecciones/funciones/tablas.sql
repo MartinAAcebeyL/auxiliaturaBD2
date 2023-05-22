@@ -1,0 +1,30 @@
+DROP DATABASE IF EXISTS libreria;
+CREATE DATABASE IF NOT EXISTS libreria;
+
+USE libreria;
+
+CREATE TABLE IF NOT EXISTS autores(
+  autor_id INT UNSIGNED PRIMARY KEY AUTO_INCREMENT,
+  nombre VARCHAR(25) NOT NULL,
+  apellido VARCHAR(25) NOT NULL,
+  seudonimo VARCHAR(50) UNIQUE,
+  genero ENUM('M', 'F'),
+  fecha_nacimiento DATE NOT NULL,
+  pais_origen VARCHAR(40) NOT NULL,
+  fecha_creacion DATETIME DEFAULT current_timestamp
+);
+
+CREATE TABLE libros(
+  libro_id INTEGER UNSIGNED PRIMARY KEY AUTO_INCREMENT,
+  autor_id INT UNSIGNED NOT NULL,
+  titulo varchar(50) NOT NULL,
+  descripcion varchar(250) NOT NULL DEFAULT '',
+  paginas INTEGER UNSIGNED NOT NULL DEFAULT 0,
+  fecha_publicacion Date NOT NUll,
+  fecha_creacion DATETIME DEFAULT CURRENT_TIMESTAMP,
+  FOREIGN KEY (autor_id) REFERENCES autores(autor_id) ON DELETE CASCADE
+);
+
+ALTER TABLE libros ADD ventas INT UNSIGNED NOT NULL DEFAULT 0;
+ALTER TABLE libros ADD stock INT UNSIGNED DEFAULT 10;
+
