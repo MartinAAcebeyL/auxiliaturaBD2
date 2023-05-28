@@ -4,11 +4,9 @@
 
 2. Implementa una función llamada "CalcularSubtotalPedido" que reciba el ID de un pedido y calcule y retorne el subtotal del pedido (la suma de los precios unitarios de todos los productos incluidos en el pedido).
 
-3. Crea una función llamada "BuscarProductosPorPrecio" que tome como parámetros un precio mínimo y un precio máximo, y retorne todos los productos cuyos precios estén dentro de ese rango.
+3. Implementa una función llamada "ObtenerTotalVentasPorCategoria" que tome como parámetro una categoría y calcule y devuelva el total de ventas (la suma de los totales de los pedidos) de todos los productos de esa categoría.
 
-4. Implementa una función llamada "ObtenerTotalVentasPorCategoria" que tome como parámetro una categoría y calcule y devuelva el total de ventas (la suma de los totales de los pedidos) de todos los productos de esa categoría.
-
-5. Crea una función llamada "ContarUsuariosRegistrados" que cuente y retorne el número total de usuarios registrados en la tabla "Usuarios".
+4. Crea una función llamada "ContarUsuariosRegistrados" que cuente y retorne el número total de usuarios registrados en la tabla "Usuarios".
 
 ## Complicacion media-alta
 1. Crea una función llamada "CalcularTotalPedido" que reciba como parámetro el ID de un pedido y devuelva el total del pedido incluyendo el descuento del 10% si el usuario ha realizado más de 3 pedidos en total.
