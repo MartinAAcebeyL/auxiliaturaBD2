@@ -1,4 +1,4 @@
-# Ejrcicios
+# Ejercicios
 ## Complicacion baja-media
 1. Crea una función llamada "ObtenerNombreCompleto" que tome como parámetros el ID de un usuario y devuelva el nombre completo concatenando el nombre y el apellido.
 
