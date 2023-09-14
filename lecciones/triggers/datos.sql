@@ -74,10 +74,10 @@ VALUES (1, 'Carrie','1974-01-01'),
 
 
 INSERT INTO usuarios (nombre, apellidos, username, email)
-VALUES  ('Eduardo', 'García', 'eduardogpg', 'eduardo@codigofacilito.com'),
-        ('Codi1', 'Facilito', 'codigofacilito', 'ayuda@codigofacilito.com'),
-        ('Codi2', 'Facilito', 'codigofacilito', 'ayuda@codigofacilito.com'),
-        ('Codi3', 'Facilito', 'codigofacilito', 'ayuda@codigofacilito.com');
+VALUES  ('fake', 'fake last name', 'fake123', 'eduardo@fake.com'),
+        ('Codi1', 'fake', 'fake', 'ayuda@fake.com'),
+        ('Codi2', 'fake', 'fake', 'ayuda@fake.com'),
+        ('Codi3', 'fake', 'fake', 'ayuda@fake.com');
 
 INSERT INTO libros_usuarios(libro_id, usuario_id)
 VALUES  (1, 1), (2, 1), (3, 1),
