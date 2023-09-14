@@ -41,4 +41,8 @@ SQL (Structured Query Language) es un lenguaje de programación diseñado espec�
 SQL es un lenguaje versátil y poderoso que se utiliza en una amplia variedad de aplicaciones y sistemas de bases de datos relacionales, como MySQL, PostgreSQL, Microsoft SQL Server, Oracle Database y otros.
 **Aprender SQL es esencial para trabajar con bases de datos y realizar operaciones de gestión y consulta de datos de manera eficiente.**
 
-Continua a [Empezemos con Sql](./Sql.md)
+## Tipos de datos
+
+En [este](https://thedataschools.com/sql/data-types/) sitio encontraras buena informacion sobre el tema.
+
+Continua a [Creacion de base de datos](./1-CreacacionBd.md)
