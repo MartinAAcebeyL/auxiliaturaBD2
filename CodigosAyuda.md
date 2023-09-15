@@ -16,3 +16,6 @@ Es importante tener instalado mysql-shell, para poder ejecutar los codigos de ay
 ## para ver las tablas de una base de datos
 
 `show tables`
+
+## Para seleccionar una base de datos
+`use <nombre de la base de datos>`
