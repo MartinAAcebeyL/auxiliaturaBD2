@@ -56,3 +56,16 @@ Para la cuestion # 2.
 3. ¿Qué requisitos deben cumplir los registros? => _Deben ser de USA_
 
 Ahora tu puedes jugar con nuestra base de datos formulandote preguntas como las de arriba y repondiendolas con las 3 preguntas 3(de guia) de arriba.
+
+## Operador BETWEEN
+
+Se utiliza en SQL para seleccionar registros de una tabla que se encuentren dentro de un rango específico de valores. Este operador se usa comúnmente con columnas que almacenan datos numéricos, fechas o cadenas de texto.
+
+La sintaxis general del operador `BETWEEN` es la siguiente:
+
+`SELECT columnas
+FROM tabla
+WHERE columna BETWEEN valor_mínimo AND valor_máximo;
+`
+
+Sigamos a [Funciones de agregado](./3-FuncionesAgregado.md)
