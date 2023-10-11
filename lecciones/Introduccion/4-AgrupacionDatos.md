@@ -63,3 +63,5 @@ FROM Empleados;
 ## Conclusión:
 
 La cláusula DISTINCT es una herramienta valiosa en SQL que se utiliza para seleccionar valores únicos de una o más columnas en una tabla.
+
+Ahora nos toca [Clausura Having](./5-Having.md)
